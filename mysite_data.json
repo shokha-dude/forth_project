@@ -1,0 +1,751 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-11-19T03:19:17.436Z",
+    "user": 1,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "very good",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-12-01T09:56:05.880Z",
+    "user": 1,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "Comment by Шохрух on Post object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-12-04T09:41:03.504Z",
+    "user": 1,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "very good",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-12-04T09:44:41.720Z",
+    "user": 1,
+    "content_type": null,
+    "object_id": "2",
+    "object_repr": "Екатерина Гусова",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-12-04T09:46:19.189Z",
+    "user": 1,
+    "content_type": null,
+    "object_id": "2",
+    "object_repr": "Екатерина Гусова",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-12-11T09:46:32.335Z",
+    "user": 1,
+    "content_type": null,
+    "object_id": "3",
+    "object_repr": "Markdown-post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-12-12T09:56:19.981Z",
+    "user": 1,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 12,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 12,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 12,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 12,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 13,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 13,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 13,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 13,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 14,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 14,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 14,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 14,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 15,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 15,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 15,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 15,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 16,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 16,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 16,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 16,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 17,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 17,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 17,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 17,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 18,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 18,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 18,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 18,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 73,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 19,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 74,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 19,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 75,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 19,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 76,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 19,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 77,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 20,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 78,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 20,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 79,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 20,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 80,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 20,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 81,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 21,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 82,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 21,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 83,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 21,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 84,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 21,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 85,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 22,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 86,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 22,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 87,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 22,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 88,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 22,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$XEt6wsquBeunWjtmRO6bT0$k3mYjIfBCK2Vi968ayzpceUpFcCZIWHPFNdBaDMTu2I=",
+    "last_login": "2024-12-12T09:54:48.721Z",
+    "is_superuser": true,
+    "username": "shokha",
+    "first_name": "",
+    "last_name": "",
+    "email": "shokha_dude@mail.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-11-19T02:58:28.667Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 19,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 20,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 21,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 22,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9lermptzisktiwy3kfpf5sjsklqdptxn",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnJ-ocp6TmD5d21cQDZUpxUiLuTSCmgfTPz3iLEdSlh7WkOE4uLGMXpd8NIz1R3wI9Y701Sq8s8odwVedAub43T63q4fwcl9rLVNmWf2QFZNp5wTGAQ1UBZYbYIbMECagVnItBDytF5bTQ7hdpsghKfLwWuOGI:1tLfuC:ohb0cRuYvvzDQEzydMZUWi1BySAqJdc2RCd4LtnVR1c",
+    "expire_date": "2024-12-26T09:54:48.731Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kv9t6pyisn37dkc8nee8wf07nhrv0j5q",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnJ-ocp6TmD5d21cQDZUpxUiLuTSCmgfTPz3iLEdSlh7WkOE4uLGMXpd8NIz1R3wI9Y701Sq8s8odwVedAub43T63q4fwcl9rLVNmWf2QFZNp5wTGAQ1UBZYbYIbMECagVnItBDytF5bTQ7hdpsghKfLwWuOGI:1tHgcK:hxYBwOW9HQBTp3YurDQZH3P4QTcq2lBiWrXqYDDQS88",
+    "expire_date": "2024-12-15T09:51:52.887Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "p68g86rx9f12lpa0nb9xio9fa589wa0a",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnJ-ocp6TmD5d21cQDZUpxUiLuTSCmgfTPz3iLEdSlh7WkOE4uLGMXpd8NIz1R3wI9Y701Sq8s8odwVedAub43T63q4fwcl9rLVNmWf2QFZNp5wTGAQ1UBZYbYIbMECagVnItBDytF5bTQ7hdpsghKfLwWuOGI:1tLJF0:HNmh6ds2gHLRsVxyQbs-1zHUBXakIPtBDWbAnjOVReo",
+    "expire_date": "2024-12-25T09:42:46.240Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "q083obk1qkucyyq0gx9m420o2c7y1q4z",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnJ-ocp6TmD5d21cQDZUpxUiLuTSCmgfTPz3iLEdSlh7WkOE4uLGMXpd8NIz1R3wI9Y701Sq8s8odwVedAub43T63q4fwcl9rLVNmWf2QFZNp5wTGAQ1UBZYbYIbMECagVnItBDytF5bTQ7hdpsghKfLwWuOGI:1tDESx:_WTjVvycWa6GAxpW6OY18ajW6x_OWfGBHc4XUkwNIys",
+    "expire_date": "2024-12-03T02:59:47.134Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xn0oiwnl62vzkyu756pbv63n1qpc6f9d",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnJ-ocp6TmD5d21cQDZUpxUiLuTSCmgfTPz3iLEdSlh7WkOE4uLGMXpd8NIz1R3wI9Y701Sq8s8odwVedAub43T63q4fwcl9rLVNmWf2QFZNp5wTGAQ1UBZYbYIbMECagVnItBDytF5bTQ7hdpsghKfLwWuOGI:1tIPM7:wDDk97BUHOdxggGhHrSGRWWwzno9STsjI4f3cRwfwo8",
+    "expire_date": "2024-12-17T09:38:07.817Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zho7oac2249f21kfq973c7fq58boua5q",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnJ-ocp6TmD5d21cQDZUpxUiLuTSCmgfTPz3iLEdSlh7WkOE4uLGMXpd8NIz1R3wI9Y701Sq8s8odwVedAub43T63q4fwcl9rLVNmWf2QFZNp5wTGAQ1UBZYbYIbMECagVnItBDytF5bTQ7hdpsghKfLwWuOGI:1tHJqZ:MVJ1n3lWBASUV0ZgAAPqURD2U9oOYtYd-CqbzNMqM6s",
+    "expire_date": "2024-12-14T09:33:03.009Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "very good",
+    "slug": "ochen_xorosho",
+    "author": 1,
+    "body": "jljljmkm/lm m/m /m/minbn jbhb hbbhlblkbnk n.j. n",
+    "publish": "2024-11-19T03:16:40Z",
+    "created": "2024-11-19T03:19:17.406Z",
+    "updated": "2024-12-04T09:41:03.496Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "Екатерина Гусова",
+    "slug": "ekaterina-gusova",
+    "author": 1,
+    "body": "rgerbgeb rtbtr b etbrgbfgb df gb df bdfbdfbdbgnbbbbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbbbbbbbbbbbbbbb  bbbbbbbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbbbbbbbbbbbbbb bbbbbbbbbbbbbbbbbbb  bbbbbbbbbbbbbbbbbbbb",
+    "publish": "2024-12-04T09:44:11Z",
+    "created": "2024-12-04T09:44:41.704Z",
+    "updated": "2024-12-04T09:46:19.178Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Markdown-post",
+    "slug": "Markdown-post",
+    "author": 1,
+    "body": "This is a post formatted with markdown\r\n\r\n--------------------------------------\r\n\r\n*This is emphasized* and **this is more emphasized**.\r\n\r\nHere is a list:\r\n\r\n* One\r\n\r\n* Two\r\n\r\n* Three\r\n\r\n \r\n\r\nAnd a [link to the Django website](https://www.djangoproject.com/)",
+    "publish": "2024-12-11T09:42:46Z",
+    "created": "2024-12-11T09:46:32.309Z",
+    "updated": "2024-12-11T09:46:32.309Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 1,
+    "name": "Шохрух",
+    "email": "aaaaaa@mail.ru",
+    "body": "lml,'.\r\n\">>><',',';,'/;,",
+    "created": "2024-12-01T09:50:04.811Z",
+    "updated": "2024-12-01T09:56:05.877Z",
+    "active": false
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 1,
+    "name": "ро о о р пи",
+    "email": "JABOR20@BK.RU",
+    "body": "n;bbv;bj;knh;lb;jbklnmlkm",
+    "created": "2024-12-01T09:51:25.490Z",
+    "updated": "2024-12-01T09:51:25.490Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+}
+]
